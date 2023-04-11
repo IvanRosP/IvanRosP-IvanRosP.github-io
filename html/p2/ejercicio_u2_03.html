@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- 
+    Nombre: Ivan Ros Padilla
+    Materia: Programacion Web I
+    Fecha: 14/Marzo/2023
+    Descripcion: Etiquetas mutlimedia y contenido especifico
+  -->
+<html>
+   <head>
+       <title>Unidad 02 - Ejercicio 03</title>
+       <meta charset="utf-8">
+       <meta name="author" content="Ivan Ros Padilla">
+       <meta name="revised" content="Martes, 14 de marzo de 2023">
+       <meta name="description" content="audio, video, source, iframe, address, small, cite, blockquote, time , sub, sup, var, kbd, code, sample, pre">
+   </head>
+   <body>
+       <hgroup>
+            <h1>Etiquetas multimedia</h1>
+            <video controls loop>
+                <source src="multimedia/movie.mp4" type="video/mp4">
+            </video>
+            <video controls autoplay>
+              <source src="multimedia/movie.mp4">
+              <source src="multimedia/movie.ogv">
+            </video>
+            <video controls autoplay>
+              <source src="multimedia/friday.mp4">
+              <track src="multimedia/friday.vtt" kind="subtitles" srclang="en" label="English">
+              <track src="multimedia/viernes.vtt" kind="subtitles" srclang="es" label="Español">
+            </video>
+       </hgroup>
+       <hgroup>
+        <h1>Wikipedia</h1>
+        <iframe height="600px" width="800px" src="https://es.wikipedia.org/wiki/Wikipedia:Portada"></iframe>
+        <h2>Programacion Web I</h2>
+        <iframe height="600px" width="800px" src="Ejercicio_u2_02.html"></iframe>
+        <h2>Facebook</h2>
+        <iframe height="600px" width="800px" src="https://es-la.facebook.com/"></iframe>
+        <h2>Youtube</h2>
+        <iframe height="600px" width="800px" src="https://www.youtube.com/"></iframe>
+        <h2>Instagram</h2>
+        <iframe height="600px" width="800px" src="https://www.instagram.com/"></iframe>
+        <h2>UPSLP</h2>
+        <iframe height="600px" width="800px" src="https://www.upslp.edu.mx/upslp/"></iframe>
+       </hgroup>
+       <hgroup>
+            <h1>Etiquetas para contenido especifico</h1>
+            <h2>Ejemplos</h2>
+            Parrafo: <p>Urbano Villalón num.500, Col. La Ladrillera, San Luis Potosí, S.L.P. México, C.P. 78363 Conmutador: (444) 870 - 21 - 00 Atención Politécnica: politecnica@upslp.edu.mx</p>
+            Direccion: <address>Urbano Villalón num.500, Col. La Ladrillera, San Luis Potosí, S.L.P. México, C.P. 78363 Conmutador: (444) 870 - 21 - 00 Atención Politécnica: politecnica@upslp.edu.mx</address>
+            Pequeño: <br><small>Urbano Villalón num.500, Col. La Ladrillera, San Luis Potosí, S.L.P. México, C.P. 78363 Conmutador: (444) 870 - 21 - 00 Atención Politécnica: politecnica@upslp.edu.mx</small>
+            <br>Cita: <br><cite>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</cite>
+            <br>Bloque: <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+            <br>Marca: <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <mark>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mark> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+            <br>Fecha:<br><cite>Lunes 13 de Marzo de 2023 <time>2023-03-13</time></cite>
+            <br>Universidad Politecnica de San Luis Potosi<sup>UPSLP,2023</sup>
+            <br>Universidad Politecnica de San Luis Potosi<sub>UPSLP,2023</sub>
+
+            <h2>UPSLP</h2>
+            <ul>
+                <li>Aspirantes <sup><a href="#1">[1]</a></sup></li>
+                <li>Alumnos <sup><a href="#2">[2]</a></sup></li>
+                <li>Docentes <sup><a href="#3">[3]</a></sup></li>
+                <li>Administrativos <sup><a href="#4">[4]</a></sup></li>
+            </ul>
+            <h3>Referencias</h3>
+            <ol>
+                <li id="1">Aspirantes: <sub><a href="https://www.upslp.edu.mx/upslp/?page_id=244">https://www.upslp.edu.mx/upslp/?page_id=244</a></sub></li>
+                <li id="2">Alumnos: <sub><a href="https://www.upslp.edu.mx/upslp/?page_id=209">https://www.upslp.edu.mx/upslp/?page_id=209</a></sub></li>
+                <li id="3">Docentes: <sub><a href="https://www.upslp.edu.mx/upslp/?page_id=231">https://www.upslp.edu.mx/upslp/?page_id=231</a></sub></li>
+                <li id="4">Administrativos: <sub><a href="https://www.upslp.edu.mx/upslp/?page_id=236">https://www.upslp.edu.mx/upslp/?page_id=236</a></sub></li>
+            </ol>
+            <h3>Otros ejemplos</h3>
+            Relatividad: E=mc<sup>2</sup>
+            <br>Agua: H<sub>2</sub>O
+            <br>Glucosa: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+            <br>Sodio (Na)): 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>1</sup>
+            <br>Ecuacion: 3x<sup>2</sup>+6y<sup>2</sup>=25
+            <br>&nbsp;- Definicion de variable <var>x</var>=3, <var>y</var>=4.
+            <br>Ejemplos basico de lenguaje C
+            <br><code>
+                for(int i=0;i!=10;i++){
+                  printf("Hola %d",i);
+                }
+            </code>
+            <br>PHP Info
+            <br><code>
+                &lt;?php phpinfo(); ?&gt;
+            </code>
+            <br>Copiar: <kbd>Ctrl + C</kbd>
+            <br>Pegar: <kbd>Ctrl + V</kbd>
+            <br>Ejemplos basico de lenguaje C
+            <samp>
+                for(int i=0;i!=10;i++){
+                  printf("Hola %d",i);
+                }
+            </samp>
+            <br>Ejemplos basico de lenguaje C
+            <pre>
+                for(int i=0;i!=10;i++){
+                  printf("Hola %d",i);
+                }
+            </pre>
+       </hgroup>
+   </body>
+</html>
