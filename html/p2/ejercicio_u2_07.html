@@ -27,9 +27,18 @@
             .skewY:hover{transform: skewY(15deg);}
             .skewXY:hover{transform: skew(30deg,15deg);}
             .mul:hover{transform:matrix(1.00,0.10,0.00,2.00,50,0);}
-            .efecto{width: 25%;font-size: 50%; transition: all 0.5s ease 0s;}
-            .efecto:hover{width: 50%; font-size: 150%; transition: all 0.5s ease 0s;}
-            .notevaagustar:hover{transform: translate(20px,20px) rotateX(20deg) rotateY(20deg) rotateZ(20deg) scale(0.75) skew(30deg,15deg); transition: all 1s ease 0s;}
+            .efecto{width: 75%;font-size: 75%; transition: all 0.5s ease 0s;}
+            .efecto:hover{width: 125%; font-size: 125%; transition: all 0.5s ease 0s;}
+            .rainbow{width: 100px; height: 100px; background-color: red; animation-name: rgb; animation-duration: 3s; animation-iteration-count: infinite; animation-timing-function: linear;}
+            @keyframes rgb{
+               0% {background-color: red;}
+               17% {background-color: yellow;}
+               33% {background-color: green;}
+               50% {background-color: cyan;}
+               67% {background-color: blue;}
+               82% {background-color: magenta;}
+               98% {background-color: red;}
+            }
        </style>
    </head>
    <body>
@@ -69,8 +78,16 @@
             <p class="efecto">UPSLP (Efecto)</p>
        </hgroup>
        <hgroup>
-            <h2>Pruebas</h2>
-            <p class="notevaagustar">Lorem ipsum</p>
+            <h2>Transition</h2>
+            <div class="efecto"><a href="#">Menu 1</a></div>
+            <div class="efecto"><a href="#">Menu 2</a></div>
+            <div class="efecto"><a href="#">Menu 3</a></div>
+            <div class="efecto"><a href="#">Menu 4</a></div>
+            <div class="efecto"><a href="#">Menu 5</a></div>
+       </hgroup>
+       <hgroup>
+          <h2>Animation</h2>
+          <div class="rainbow"></div>
        </hgroup>
    </body>
 </html>
